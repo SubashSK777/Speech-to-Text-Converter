@@ -1,11 +1,8 @@
-
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     display: flex;
     justify-content: center;
@@ -14,16 +11,13 @@ body{
     font-family: sans-serif;
     background: linear-gradient(to right,
     #1e3c72, #2a5298, #00c6fb, #1e3c72 );
-
 }
-
 h2{ 
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     text-decoration: dotted;
 }
-
 .container{
     display: flex;
     justify-content: center;
@@ -37,7 +31,6 @@ h2{
     margin: 20px auto;
     border-radius: 3px;
 }
-
 #result{
     border: 1px solid #333;
     padding: 40px 50px;
@@ -47,14 +40,12 @@ h2{
     background: linear-gradient(168deg, #ff9a9e, #fad0c4);
     border-radius: 9px;
 }
-
 .button-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
-
 button{
     font-size: 20px;
     height: 80px;
@@ -66,20 +57,14 @@ button{
     border: none;
     animation: pulse 1.5s infinite alternate;
 }
-
 button:hover{
     background-color: darkblue;
 }
-
 @keyframes pulse{
-
     from{
         transform: scale(1);
-
     }
-
     to{
         transform: scale(1.1);
-
     }
 }
